@@ -29,6 +29,9 @@ body {
 
   background-color: green;
   border-radius: 10rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -5px;
 }
 
 #search-bar {
@@ -37,16 +40,19 @@ body {
   width: 48rem;
   border: 1px solid #000;
   border-radius: 10rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #sidebar {
   display: flex;
   flex-direction: column;
   background-color: black;
-
+  padding-top: 3rem;
   float: right;
   width: 20rem;
 }
+
 #sidebar iframe {
   padding: 20px;
 }
@@ -56,7 +62,8 @@ body {
 }
 
 #video-section {
-  width: 65rem;
+    min-width: 15rem;
+    max-width: 65rem;
 }
 #main-video iframe {
   text-align: center;
