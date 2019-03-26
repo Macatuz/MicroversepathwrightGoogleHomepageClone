@@ -1,0 +1,57 @@
+body {
+  background-color: black !important;
+  color: black !important;
+}
+
+.header {
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 2.25rem;
+  background-color: #fff;
+  color: #000 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+  float: right;
+  width: 20rem;
+}
+#sidebar iframe {
+  width: 100%;
+}
+
+#main {
+  width: 70%;
+}
+#main-video iframe {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#main-info {
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 20px;
+  width: 96%;
+  padding: 0.2rem;
+}
+
+#main-info-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#main-info-li li {
+  list-style-type: none;
+}
