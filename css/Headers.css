@@ -18,6 +18,25 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.profile-image {
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+  height: 100%;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 32px;
+}
+
+.text {
+  margin-top: 0.25rem;
+  height: 100%;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: 500px;
+}
 #search {
   color: white;
   padding-top: 9px;
@@ -51,19 +70,33 @@ body {
   padding-top: 3rem;
   float: right;
   width: 20rem;
+  background-color: rgb(32, 32, 32);
 }
 
 #sidebar iframe {
   padding: 20px;
+  border-width: 2px;
+  border-color: green;
+  border-right: 0;
 }
 
+.sidebar-btn {
+  /* margin-top: 0.25rem; */
+  margin-left: 1rem;
+  /* height: 100%; */
+  text-align: center;
+  background-color: green;
+  border-radius: 10rem;
+  width: 8rem;
+  padding-top: 6px;
+}
 #main {
   width: 70%;
 }
 
 #video-section {
-    min-width: 15rem;
-    max-width: 65rem;
+  min-width: 15rem;
+  max-width: 65rem;
 }
 #main-video iframe {
   text-align: center;
@@ -86,4 +119,10 @@ body {
 
 #main-info-li li {
   list-style-type: none;
+  font-size: 20;
+}
+.nice-text {
+  color: green;
+  font-weight: 900;
+  font-size: 20;
 }

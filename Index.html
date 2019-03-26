@@ -6,21 +6,16 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <link rel="stylesheet" href="./css/Headers.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cool Videos</title>
   </head>
 
-
   <body>
     <!-- Header -->
     <header class="header">
-      <a
-        style="margin-top: 0.25rem;margin-left: 1rem;height:100%;text-align:center"
-        >Open Sidebar</a
-      >
-      <a style="margin-top: 0.25rem;height:100%;text-align:center;color:red;"
-        >Youtube</a
-      >
+      <a class="sidebar-btn">Open Sidebar </a>
+      <a class="text">Cool <span style="color: #00bb00">Videos</span></a>
       <div>
         <input id="search-bar" />
         <a id="search">
@@ -28,16 +23,14 @@
         </a>
       </div>
 
-      <a
-        style="margin-top: 0.25rem;margin-right: 1rem;height:100%;text-align:center"
-      >
-        <img width="32" src="img/smiling.png" />
-      </a>
+      <p class="profile-image">
+        <img src="img/smiling.png" />
+      </p>
     </header>
 
     <!-- sidebar -->
 
-    <div id="sidebar" style="background-color: rgb(32, 32, 32);">
+    <div id="sidebar">
       <iframe
         src="https://www.youtube.com/embed/bS25APUTJBQ"
         frameborder="0"
@@ -46,26 +39,25 @@
       ></iframe>
 
       <iframe
-        src="https://www.youtube.com/embed/bS25APUTJBQ"
+        src="https://www.youtube.com/embed/c7lbOXZtjlU"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
 
       <iframe
-        src="https://www.youtube.com/embed/bS25APUTJBQ"
+        src="https://www.youtube.com/embed/IKwlWzE-ms4"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
 
       <iframe
-        src="https://www.youtube.com/embed/bS25APUTJBQ"
+        src="https://www.youtube.com/embed/kTh-28ubvCU"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      >
-      </iframe>
+      ></iframe>
     </div>
 
     <!-- main video -->
@@ -84,16 +76,19 @@
         </div>
 
         <div id="main-info">
-            <h1 style="padding-left:40px">Fortnite Battle Royal</h1>
-            <ul id="main-info-li">
-                    
-                <li>Likes: 32000</li>
-                <li>Veiws: 1000000</li>
-                <li>Share</li>
-                <li>Save</li>
-            </ul>
-            <p style="padding-left: 40px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt modi placeat autem aspernatur dolore, nemo voluptatibus eius cum laborum consequatur debitis atque, aperiam veniam vel doloribus cumque ad nulla minima.</p>
-            
+          <h1 style="padding-left:40px">Fortnite Battle Royal</h1>
+          <ul id="main-info-li">
+            <li>Likes: <span class="nice-text"> 21288122</span></li>
+            <li>Veiws:<span class="nice-text"> 121221212</span></li>
+            <li>Share</li>
+            <li>Save</li>
+          </ul>
+          <p style="padding-left: 40px;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            modi placeat autem aspernatur dolore, nemo voluptatibus eius cum
+            laborum consequatur debitis atque, aperiam veniam vel doloribus
+            cumque ad nulla minima.
+          </p>
         </div>
       </div>
     </section>
