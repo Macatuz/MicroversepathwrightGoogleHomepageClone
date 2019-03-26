@@ -54,6 +54,10 @@ body {
 #main {
   width: 70%;
 }
+
+#video-section {
+  width: 65rem;
+}
 #main-video iframe {
   text-align: center;
   margin-bottom: 0.5rem;
