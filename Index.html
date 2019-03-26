@@ -29,13 +29,10 @@
         >Youtube</a
       >
       <div>
-        <input
-          style="height:100%;text-align:center;width:48rem;border: 1px solid #000"
-        />
-        <a
-          style="color:rgba(0, 0, 0, 0.54);padding-top: 9px;margin-left: -4px;padding-bottom: 9px;padding-left: 16px;padding-right: 16px;height:100%;text-align:center;background-color: hsla(0, 0%, 0%, 0.15)"
-          >Search</a
-        >
+        <input id="search-bar" />
+        <a id="search">
+          Search
+        </a>
       </div>
 
       <a
@@ -46,6 +43,7 @@
     </header>
 
     <!-- sidebar -->
+
     <div id="sidebar">
       <iframe
         src="https://www.youtube.com/embed/bS25APUTJBQ"
@@ -79,25 +77,27 @@
 
     <!-- main video -->
     <section id="main" style="padding-top: 4rem;">
-      <div id="main-video">
-        <iframe
-          width="1000px"
-          height="450"
-          src="https://www.youtube.com/embed/2gUtfBmw86Y"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
-      </div>
+      <div id="video-section">
+        <div id="main-video">
+          <iframe
+            width="1000px"
+            height="450"
+            src="https://www.youtube.com/embed/2gUtfBmw86Y"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
 
-      <div id="main-info">
-        <ul id="main-info-li">
-          <li>Likes: 32000</li>
-          <li>Veiws: 1000000</li>
-          <li>Share</li>
-          <li>Save</li>
-        </ul>
+        <div id="main-info">
+          <ul id="main-info-li">
+            <li>Likes: 32000</li>
+            <li>Veiws: 1000000</li>
+            <li>Share</li>
+            <li>Save</li>
+          </ul>
+        </div>
       </div>
     </section>
 
