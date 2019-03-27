@@ -11,6 +11,12 @@ body {
 iframe {
   border: none;
 }
+
+hr {
+  font-weight: lighter;
+  color: rgb(105, 105, 105);
+}
+
 .header {
   padding-top: 0.75rem;
   padding-bottom: 0.5rem;
@@ -195,6 +201,50 @@ iframe {
 div[rel="video-info"] {
   display: flex;
   flex-direction: column;
+}
+
+.comments {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-input {
+  display: flex;
+  flex-direction: row;
+}
+.comment-single {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-row {
+  margin-top: -20px;
+}
+
+.comment-row p {
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+.comment-likes {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: -12rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+.comment-user {
+  width: 90em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.comment-likes img {
+  padding: 1em;
 }
 
 @media only screen and(min-width: 600px) {
