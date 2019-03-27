@@ -1,7 +1,11 @@
 body {
   background-color: white !important;
-  color: black !important;
+
   font-family: Roboto, Arial, sans-serif;
+}
+
+.wrapper {
+  text-align: center !important;
 }
 
 iframe {
@@ -9,12 +13,12 @@ iframe {
 }
 .header {
   padding-top: 0.75rem;
-  padding-bottom: 0.50rem;
-  justify-content:space-between;
+  padding-bottom: 0.5rem;
+  justify-content: space-between;
   display: flex;
   width: 100%;
   position: fixed;
-  z-index: 99px;
+  z-index: 99;
   right: 0px;
   top: 0px;
   height: 2.25rem;
@@ -41,23 +45,22 @@ iframe {
   color: red;
   font-size: 20px;
 
-  font-weight: 500px;
+  font-weight: 500;
 }
 .vectorpaddded {
-  
   padding: 0px 0px 4px 24px;
-  stroke: rgba(0,0,0,0.15);
-  fill: rgba(0,0,0,0.15);
+  stroke: rgba(0, 0, 0, 0.15);
+  fill: rgba(0, 0, 0, 0.15);
   width: 1.5rem;
 }
 .vectorpadddedlanded {
-  
   padding: 0px 0px 4px 18px;
-  stroke: rgba(0,0,0,0.15);
-  fill: rgba(0,0,0,0.15);
+  stroke: rgba(0, 0, 0, 0.15);
+  fill: rgba(0, 0, 0, 0.15);
   width: 1.5rem;
 }
 .nomargin {
+  text-align: left;
   margin-top: 0;
 }
 .videodetail {
@@ -65,16 +68,14 @@ iframe {
   justify-content: space-between;
 }
 .vectorpadddedlandedv {
-  
-  
-  stroke: rgba(0,0,0,0.15);
-  fill: rgba(0,0,0,0.15);
+  stroke: rgba(0, 0, 0, 0.15);
+  fill: rgba(0, 0, 0, 0.15);
   width: 1.5rem;
 }
 #search {
   color: rgba(255, 255, 255, 0.45);
   padding-top: 7px;
-  margin-left: -4px;
+
   padding-bottom: 7px;
   padding-left: 32px;
   padding-right: 32px;
@@ -94,9 +95,9 @@ iframe {
   font-size: 1rem;
   padding-bottom: 1px;
   padding-top: 0px;
-  text-align: left;
+
   padding-left: 12px;
-  color:white;
+  color: white;
   background-color: rgba(0, 0, 0, 1) !important;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -109,26 +110,28 @@ iframe {
   flex-direction: column;
   padding-top: 3.5rem;
   float: right;
-  width: 28rem;
-  background-color: #fff;
+  width: 32rem;
 }
 .videotitle {
   font-size: 1.2rem;
+  width: 10em;
+  text-align: left;
+  font-size: 0.8em;
 }
 .videoowner {
-  color:rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 .videoviews {
-  color:rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 .sidebaritem {
   margin-top: 12px;
-  padding-top: 0px; 
-  display:flex;
+  padding-top: 0px;
+  display: flex;
 }
 
 #sidebar div iframe {
-  padding: 0px 16px 0px 16px;
+  padding: 0px 16px 0px 0px;
   border-width: 2px;
   border-color: green;
   width: 11rem;
@@ -141,9 +144,7 @@ iframe {
   margin-left: 1rem;
   /* height: 100%; */
   text-align: center;
-  
-  
-  
+
   padding-top: 6px;
 }
 #main {
@@ -151,15 +152,19 @@ iframe {
 }
 
 #video-section {
-  min-width: 15rem;
-  max-width: 65rem;
+  text-align: center;
+}
+#main-video {
+  width: 80%;
 }
 #main-video iframe {
   text-align: center;
   margin-bottom: 0.5rem;
 }
-#main-video {
-  width: 47.5rem;
+
+.main-video-video {
+  width: 100%;
+  height: 30rem;
 }
 #main-info {
   background-color: white;
@@ -177,10 +182,23 @@ iframe {
 
 #main-info-li li {
   list-style-type: none;
-  font-size: 20;
+  font-size: 20px;
 }
 .nice-text {
   color: green;
   font-weight: 900;
-  font-size: 20;
+  font-size: 20px;
+}
+
+/*Side bar work*/
+
+div[rel="video-info"] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and(min-width: 600px) {
+  #sidebar {
+    display: none;
+  }
 }
