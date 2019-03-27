@@ -1,6 +1,6 @@
 body {
   background-color: white !important;
-
+padding-bottom: 12rem;
   font-family: Roboto, Arial, sans-serif;
 }
 
@@ -116,19 +116,23 @@ hr {
   flex-direction: column;
   padding-top: 3.5rem;
   float: right;
-  width: 32rem;
+  width: 30rem;
 }
 .videotitle {
-  font-size: 1.2rem;
+  font-weight: 800;
+  font-size: 15px;
   width: 10em;
   text-align: left;
-  font-size: 0.8em;
+  
+  margin-bottom: 2px;
 }
 .videoowner {
   color: rgba(0, 0, 0, 0.54);
+  text-align: left;
 }
 .videoviews {
   color: rgba(0, 0, 0, 0.54);
+  text-align: left;
 }
 .sidebaritem {
   margin-top: 12px;
@@ -218,11 +222,24 @@ div[rel="video-info"] {
   display: flex;
   flex-direction: row;
 }
-
-.comment-row {
-  margin-top: -20px;
+.baritem {
+  display:inline;
+  margin-right: 20px;
+  color:rgba(0,0,0,.54)
 }
-
+.timeago {
+  color:rgba(0,0,0,.54);
+  font-weight: 100;
+}
+.comment-row {
+  margin-top: -15px;
+}
+.imagetext {
+  vertical-align: super;
+  font-size: 14px;
+    font-weight: 800;
+    margin-left: 4px; 
+}
 .comment-row p {
   margin-top: -15px;
   font-size: 14px;
@@ -235,6 +252,7 @@ div[rel="video-info"] {
   padding-right: -12rem;
   text-align: center;
   margin-left: 2.5rem;
+  
 }
 .comment-user {
   width: 90em;
